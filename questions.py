@@ -20,7 +20,7 @@ else:
     run_index = get_cyclic_index(run_number, MAX_REPO)
     # Format the URL with leading zeros
     repo_number = f"{run_index:03d}"
-    BASE_URL = f"https://deepwiki.com/grass-dev-pa/{SOURCE_REPO.split("/")[-1]}-{repo_number}"
+    BASE_URL = f"https://deepwiki.com/grass-dev-pa/Acala-{repo_number}"
 
 scope_files =[
     "modules/aggregated-dex/src/benchmarking.rs",
